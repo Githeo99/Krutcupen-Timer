@@ -112,3 +112,56 @@ div#timer_container .timer_cells p:last-child {
         font-size: 1.15rem;
     }
 }
+
+/* participants */
+
+div#participants_caption {
+    background-color: black;
+    padding: 2.5%;
+}
+
+div#participants_caption h1 {
+    font-family: var(--kc-font);
+    color: var(--kc-text-color);
+    text-align: center;
+}
+
+div#participants_container {
+    background-color: white;
+    font-family: var(--kc-font);
+    min-width: 300px;
+    height: auto;
+}
+
+div#participants_container table {
+    width: 100%;
+}
+
+div#participants_container thead {
+    background-color: black;
+    color: var(--kc-text-color);
+    width: 100%;
+}
+
+div#participants_container thead tr {
+    padding: 2.5%;
+    font-size: 1.125rem;
+}
+
+div#participants_container tbody {
+    color: black;
+    width: 100%;
+}
+
+div#participants_container tr {
+    display: flex;
+    gap: 1rem;
+}
+
+div#participants_container tbody tr {
+    margin: 1rem 0;
+}
+
+div#participants_container td, div#participants_container th {
+    width: 100%;
+}
