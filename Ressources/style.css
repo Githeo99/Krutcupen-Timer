@@ -159,7 +159,11 @@ div#participants_container tr {
 }
 
 div#participants_container tbody tr {
-    margin: 1rem 0;
+    padding: 1rem 0;
+}
+
+div#participants_container tbody tr:nth-child(odd) {
+    background-color: #ddd;
 }
 
 div#participants_container td, div#participants_container th {
