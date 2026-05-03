@@ -1,2 +1,2 @@
 # Krutcupen-Timer
-A countdown webpage
+A webpage to display Krutcupen results, and more information
