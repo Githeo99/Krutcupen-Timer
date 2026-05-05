@@ -167,6 +167,7 @@ div#participants_container td, div#participants_container th {
 
 div#results-container {
     background-color: white;
+    font-family: var(--kc-font);
 }
 
 div.results-headers-box {
