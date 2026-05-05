@@ -3,18 +3,22 @@
     --kc-text-color: #ff3200;
 }
 
-/* index */
+a {
+    text-decoration: none;
+}
 
-div#timer_caption {
+div#kc_caption {
     background-color: black;
     padding: 2.5%;
 }
 
-div#timer_caption h1 {
+div#kc_caption h1 {
     font-family: var(--kc-font);
     color: var(--kc-text-color);
     text-align: center;
 }
+
+/* index */
 
 div#timer_container {
     font-family: var(--kc-font);
@@ -115,17 +119,6 @@ div#timer_container .timer_cells p:last-child {
 
 /* participants */
 
-div#participants_caption {
-    background-color: black;
-    padding: 2.5%;
-}
-
-div#participants_caption h1 {
-    font-family: var(--kc-font);
-    color: var(--kc-text-color);
-    text-align: center;
-}
-
 div#participants_container {
     background-color: white;
     font-family: var(--kc-font);
@@ -168,4 +161,26 @@ div#participants_container tbody tr:nth-child(odd) {
 
 div#participants_container td, div#participants_container th {
     width: 100%;
+}
+
+/* Results */
+
+div#results-container {
+    background-color: white;
+}
+
+div.results-headers-box {
+    background-color: var(--kc-text-color);
+    color: black;
+    padding: 1.5%;
+}
+
+a.results-downloads {
+    background-color: var(--kc-text-color);
+    color: black;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: bold;
+    margin: 1rem;
+    padding: 1rem;
 }
